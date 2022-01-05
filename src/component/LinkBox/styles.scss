@@ -1,0 +1,48 @@
+@import "../../styles/variable";
+
+
+.link-box{
+  width: 159px;
+  height: 118px;
+  border-radius: 12px;
+  background-color: #FF494F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  @media screen and (max-width: $sm) {
+   width: 96px;
+    height: 76px;
+  }
+  &:hover{
+    background-color: #ba383d;
+  }
+
+  &__count{
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    @media screen and (max-width: $sm) {
+     //font-size: 36px;
+     font-size: 18px;
+    }
+  }
+  &__unit{
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    @media screen and (max-width: $sm) {
+      font-size: 12px;
+    }
+  }
+}

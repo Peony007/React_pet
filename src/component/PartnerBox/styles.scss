@@ -1,0 +1,52 @@
+@import "../../styles/variable";
+
+.part-com{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #FFB399;
+  position: relative;
+  &:hover{
+    background-color: #e5a790;
+
+  }
+  //&:hover &__title-group{
+  //  display: block;
+  //}
+  @media (max-width: $md) and (min-width: $sm){
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  @media screen and (max-width: $sm){
+    width: 120px;
+    height: 120px;
+  }
+  &__img{
+    width: 124px;
+    height: 124px;
+    align-self: center;
+    @media screen and (max-width: $sm){
+      width: 80px;
+      height: 88px;
+    }
+  }
+
+  &__title-group{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-content: center;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+
+
+  }
+
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RainKiss";
+  src: url("../assets/font/Rain Kiss 400.otf");
+}
+
+@font-face {
+  font-family: "Teacher";
+  src: url("../assets/font/TEACHER.ttf");
+}
+
+/*
+Extra small devices (phones, 576px and down)
+Medium devices (landscape tablets, 768px and up)
+Large devices (laptops/desktops, 992px and up)
+Extra large devices (large laptops and desktops, 1200px)
+Extra extra large  1400px
+*/
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px

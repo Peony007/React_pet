@@ -1,0 +1,43 @@
+@import "../../styles/variable";
+
+.primary-button{
+  border: 1px solid #FF494F;
+  border-radius: 50px;
+  height: 56px;
+  padding: 12px 14px ;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  &:hover{
+    border: 2px solid red;
+  }
+
+  @media screen and (max-width: $sm) {
+    height: 40px;
+    align-self: center;
+  }
+
+  &__text{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    font-family: Montserrat;
+    line-height: 32px;
+    text-align: center;
+    @media screen and (max-width: $sm) {
+      line-height: 16px;
+      font-size: 12px;
+
+    }
+  }
+  &__img{
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    align-self: center;
+    margin-right: 8px;
+  }
+}
